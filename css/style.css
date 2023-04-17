@@ -1,0 +1,55 @@
+/* Variables */
+
+:root {
+    --main-bg-color: hsl(2, 0%, 15%);
+    --accent-main-bright: #A0C8BF;
+    --accent-main-dark: #188177;
+    
+    --primary-header-font: 'Overpass', sans-serif;
+}
+
+
+/* General Defaults */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: white;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    min-width: 200px;
+    min-height: 100svh;
+    padding-top: 48px; /*space for fixed-position header*/
+}
+
+main {
+    width: 100%;
+    height: 80svh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+/* Main Background */
+
+body {
+    background-color: var(--main-bg-color);
+}
+
+
+/* Site-wide styles */
+
+.big-heading {
+    font-size: 1.5rem;
+    font-family: var(--primary-header-font);
+    margin-bottom: 1rem;
+}
+
+.padding {
+    height: 1000px;
+    max-height: 50%;
+}
