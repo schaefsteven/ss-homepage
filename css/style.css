@@ -15,7 +15,7 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
+html > body {
     color: white;
     text-align: center;
     font-family: 'Roboto Slab', serif;
@@ -23,6 +23,7 @@ body {
     min-height: 100svh;
     padding-top: 48px; /*space for fixed-position header*/
 }
+
 
 main {
     width: 100%;
@@ -52,4 +53,9 @@ body {
 .padding {
     height: 1000px;
     max-height: 50%;
+}
+
+.weatherwidget-io {
+    width: 90%;
+    max-width: 900px;
 }
